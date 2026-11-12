@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Space Baster — Praveen's game development project.">
+<title>Space Baster — Praveen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.detail-page{max-width:1240px;width:calc(100% - 48px);margin:auto;padding:90px 0 120px}
+.back{font:10px "DM Mono";letter-spacing:.12em;color:#77766e}
+.detail-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center;margin-top:45px}
+.detail-image{background:#fffaf0;border:1px solid #17171420;border-radius:18px;padding:12px}
+.detail-image img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:12px}
+.detail-label{font:10px "DM Mono";letter-spacing:.12em;color:#77766e}
+.detail-page h1{font-size:clamp(52px,8vw,100px);line-height:.9;letter-spacing:-.08em;margin:20px 0}
+.detail-copy{font-size:16px;line-height:1.8;color:#66655f;max-width:560px}
+.role{margin-top:28px;font-weight:700;color:#171714}
+.detail-actions{display:flex;gap:18px;flex-wrap:wrap;margin-top:32px}
+.detail-actions a{display:inline-flex;padding:14px 18px;border-radius:999px;font:10px "DM Mono";letter-spacing:.1em;border:1px solid #17171433}
+.detail-actions .play{background:#2e8b72;color:#fff;border-color:#2e8b72}
+@media(max-width:850px){.detail-grid{grid-template-columns:1fr;gap:35px}}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="index.html">PRAVEEN<span>/DEV</span></a>
+<nav class="nav" aria-label="Main navigation">
+<a href="index.html#about">About</a><a href="index.html#work">Work</a><a href="index.html#skills">Skills</a><a href="index.html#contact" class="nav-button">Contact ↗</a>
+</nav>
+<button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+</header>
+<main class="detail-page">
+<a class="back" href="index.html#work">← BACK TO WORK</a>
+<div class="detail-grid">
+<div class="detail-image"><img src="space-baster.png" alt="Space Baster project screenshot"></div>
+<div>
+<div class="detail-label">ACTION · UNITY · C# · GAMEPLAY</div>
+<h1>Space Baster</h1>
+<p class="detail-copy">A 2D shooter learning project exploring player control, shooting interactions, targets and the foundations of arcade gameplay.</p>
+<p class="role">Role: Game Designer & Developer</p>
+<div class="detail-actions">
+<a class="play" href="https://jakkula.itch.io/space-baster" target="_blank" rel="noopener noreferrer">PLAY PROJECT ↗</a>
+<a href="index.html#work">VIEW ALL PROJECTS</a>
+</div>
+</div>
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
